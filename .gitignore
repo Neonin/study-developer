@@ -34,5 +34,7 @@ npm-debug.*
 web-build/
 web-report/
 
+React/telegram-react
+
 # macOS
 .DS_Store
