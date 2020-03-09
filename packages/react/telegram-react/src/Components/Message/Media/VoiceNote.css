@@ -1,0 +1,26 @@
+/*
+ *  Copyright (c) 2018-present, Evgeny Nadymov
+ *
+ * This source code is licensed under the GPL v.3.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.voice-note-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 12px;
+    pointer-events: none;
+    min-width: 200px;
+}
+
+.voice-note-meta {
+    font-size: 14px;
+    line-height: normal;
+    user-select: none;
+    display: flex;
+    color: var(--message-in-subtle-color);
+}
+
+.message-out .voice-note-meta {
+    color: var(--message-out-subtle-color);
+}
